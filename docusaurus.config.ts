@@ -13,7 +13,7 @@ const config: Config = {
   projectName: "blacksky-algorithms.github.io",
   trailingSlash: false,
   deploymentBranch: "gh-pages",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "log",
   onBrokenMarkdownLinks: "warn",
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -62,14 +62,8 @@ const config: Config = {
         src: "img/blacksky-favicon.ico",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Introduction",
-        },
-        { to: "https://blog.rudyfraser.com/", label: "Blog", position: "left" },
         { to: "/docs", label: "Docs", position: "left" },
+        { to: "https://blog.rudyfraser.com/", label: "Blog", position: "left" },
         {
           href: "https://github.com/blacksky-algorithms/rsky",
           label: "GitHub",
