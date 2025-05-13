@@ -56,7 +56,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/blacksky-webclip-256.png",
     navbar: {
-      title: "Blacksky Documentation",
+      title: "Blacksky Algorithms",
       logo: {
         alt: "The Blacksky logo",
         src: "img/blacksky-favicon.ico",
@@ -78,8 +78,12 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Blacksky Introduction",
-              to: "/docs/blacksky-intro",
+              label: "Introduction",
+              to: "/docs",
+            },
+            {
+              label: "Frequently Asked Questions",
+              to: "/faq",
             },
           ],
         },

@@ -28,7 +28,7 @@ function HomepageHeader() {
 
 export default function Home(): ReactNode {
   return (
-    <Layout description="Description will go into a meta tag in <head />">
+    <Layout description="Official documentation from Blacksky. Installation guides, configuration options, and community resources to help you build successfully.">
       <HomepageHeader />
       <main>{/* <HomepageFeatures /> */}</main>
     </Layout>
